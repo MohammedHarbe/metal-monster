@@ -13,7 +13,7 @@ typedef struct {
 
 Metal_Monster_Data receiverData;
 
-// Correct pin order: PWM, DIR
+//PWM, DIR
 CytronMD motor1(PWM_DIR, 12, 22);
 CytronMD motor2(PWM_DIR, 13, 18);
 
@@ -21,7 +21,6 @@ inline int mapJoystickValue(int value, int inMin, int inMax, int outMin, int out
   return map(value, inMin, inMax, outMin, outMax);
 }
 
-// ESP32 Arduino Core 3.x callback
 void OnDataRecv(const esp_now_recv_info_t *info,
                 const uint8_t *incomingData,
                 int len)
