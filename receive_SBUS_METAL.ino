@@ -5,7 +5,6 @@
 #define SBUS_TX_PIN -1
 
 
-// CHANGE THIS PIN (can't be 16 because SBUS uses it)
 #define SPINNER 16
 
 bfs::SbusRx sbus_rx(&Serial2, SBUS_RX_PIN, SBUS_TX_PIN, true);
