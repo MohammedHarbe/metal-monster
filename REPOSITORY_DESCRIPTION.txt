@@ -1,1 +1,1 @@
-Metal Monster: a combat robotics project developed since 2023, featuring ESP-NOW control, wheelchair drive motors, and a starter-motor-powered spinner. Mechanical, firmware, and electrical designs.
+Griffen by Vanguards: a combat robotics project developed since 2023, featuring ESP-NOW control, wheelchair drive motors, and a starter-motor-powered spinner. Firmware, electrical designs, and project history.

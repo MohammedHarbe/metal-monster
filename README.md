@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="docs/assets/metal-monster-banner.svg" alt="Metal Monster — combat robotics, built together since 2023" width="100%">
+  <img src="docs/assets/metal-monster-banner.svg" alt="Griffen — combat robotics, built together since 2023" width="100%">
 </p>
 
 <p align="center">
-  <b>A team-built combat robot. An engineering journey since 2023.</b><br>
+  <b>Griffen by Vanguards. An engineering journey since 2023.</b><br>
   Mechanical fabrication, custom electronics, and ESP-NOW control.
 </p>
 
@@ -17,14 +17,14 @@
 
 ---
 
-## Meet Metal Monster
+## Meet Griffen
 
-We have been working on **Metal Monster since 2023**: a manually controlled robot built for robot-versus-robot competition. Two wheelchair motors move the base, while a starter motor powers its metal spinner. A handheld remote communicates with an onboard **ESP32 DevKitC V4** over **ESP-NOW**.
+We are **Vanguards**, and we have been working on **Griffen since 2023**: a manually controlled robot built for robot-versus-robot competition. Two wheelchair motors move the base, while a starter motor powers its metal spinner. A handheld remote communicates with an onboard **ESP32 DevKitC V4** over **ESP-NOW**.
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="mechanical/images/metal-monster-robot.jpg" alt="Metal Monster with black and gold painted body" width="360"><br><b>The painted robot</b></td>
-<td width="50%" align="center"><img src="docs/history/images/robot-before-painting.jpg" alt="Earlier unpainted Metal Monster assembly" width="360"><br><b>Before paint and later modifications</b></td>
+<td width="50%" align="center"><img src="mechanical/images/metal-monster-robot.jpg" alt="Griffen with black and gold painted body" width="360"><br><b>The painted robot</b></td>
+<td width="50%" align="center"><img src="docs/history/images/robot-before-painting.jpg" alt="Earlier unpainted Griffen assembly" width="360"><br><b>Before paint and later modifications</b></td>
 </tr>
 </table>
 
@@ -32,6 +32,10 @@ We have been working on **Metal Monster since 2023**: a manually controlled robo
   <a href="docs/history/videos/first-integrated-operation.mp4"><b>▶ Watch or download our first integrated-operation video</b></a><br>
   <sub>A milestone identified by the team: the first time the robot worked together as a complete system.</sub>
 </p>
+
+The repository retains its original `metal-monster` name; **Griffen** is the robot and **Vanguards** is the team.
+
+[Download the supplied PCB logo DXF](docs/assets/Logo_for_PCB.DXF).
 
 ## Explore the build
 
@@ -75,10 +79,10 @@ The receiver uses an **ESP32 DevKitC V4**. Its spinner GPIO drives a **5 V relay
 
 </details>
 
-## Built together, since 2023
+## Vanguards · Built together since 2023
 
 <p align="center">
-  <img src="docs/history/images/team.jpg" alt="The Metal Monster team holding a robot body panel" width="850">
+  <img src="docs/history/images/team.jpg" alt="Team Vanguards holding a Griffen body panel" width="850">
 </p>
 
 From the early receiver and handheld remote to the assembled robot, this repository brings our work into one place. The [project history](docs/history/README.md) records those stages without assigning unconfirmed dates to individual milestones.
@@ -122,4 +126,4 @@ metal-monster/
 
 ---
 
-<p align="center"><sub>METAL MONSTER · MECHANICAL / ELECTRICAL / FIRMWARE · SINCE 2023</sub></p>
+<p align="center"><sub>VANGUARDS / GRIFFEN · MECHANICAL / ELECTRICAL / FIRMWARE · SINCE 2023</sub></p>

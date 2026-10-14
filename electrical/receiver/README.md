@@ -10,6 +10,8 @@ The receiver uses an **ESP32 DevKitC V4**, confirmed by the project owner. The c
 
 ### Supplied files
 
+- [PCB logo artwork (DXF)](../../docs/assets/Logo_for_PCB.DXF)
+
 - [Editable KiCad project](source/Reciever_metal_monster.kicad_pro)
 - [Editable schematic](source/Reciever_metal_monster.kicad_sch)
 - [Editable PCB](source/Reciever_metal_monster.kicad_pcb)

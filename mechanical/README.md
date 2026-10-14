@@ -1,6 +1,6 @@
 # Mechanical Designs
 
-This section is reserved for Metal Monster's mechanical design files. No CAD models, fabrication drawings, or mechanical measurements are included yet.
+This section is reserved for Griffen's mechanical design files. No CAD models, fabrication drawings, or mechanical measurements are included yet.
 
 ## Where to add files
 
@@ -24,9 +24,9 @@ Mark proposed designs as drafts until fit, fabrication details, and physical tes
 
 ## Robot and motor references
 
-Metal Monster is a combat robotics project under development since 2023. The team identifies two wheelchair motors for the mobile base and a starter-motor-driven metal spinner for robot-versus-robot competition.
+Griffen is a combat robotics project under development since 2023. The team identifies two wheelchair motors for the mobile base and a starter-motor-driven metal spinner for robot-versus-robot competition.
 
-![Metal Monster robot](images/metal-monster-robot.jpg)
+![Griffen robot](images/metal-monster-robot.jpg)
 
 [Wheelchair motor reference image](images/wheelchair-motor-reference.png). The supplied reference is labelled MY1016Z, 24 V, 250 W; this is not yet a verified nameplate specification for the installed motors.
 

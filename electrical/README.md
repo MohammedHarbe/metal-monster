@@ -1,6 +1,6 @@
 # Electrical Designs
 
-Metal Monster has two separate circuits communicating over ESP-NOW:
+Griffen has two separate circuits communicating over ESP-NOW:
 
 | Circuit | Location and role | Design status |
 | --- | --- | --- |

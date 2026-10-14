@@ -1,16 +1,16 @@
 # Project History
 
-Our team has been working on Metal Monster since **2023**. These owner-supplied photos and video document the early hardware and a milestone in bringing the robot together. Specific capture dates have not been confirmed; the video transfer filename is not treated as the milestone date.
+Our team, **Vanguards**, has been working on Griffen since **2023**. These owner-supplied photos and video document the early hardware and a milestone in bringing the robot together. Specific capture dates have not been confirmed; the video transfer filename is not treated as the milestone date.
 
 ## The team
 
-![Metal Monster team with the robot body panel](images/team.jpg)
+![Griffen team with the robot body panel](images/team.jpg)
 
-The team behind Metal Monster. Member names and individual roles have not yet been supplied.
+**Vanguards**, the team behind Griffen. Member names and individual roles have not yet been supplied.
 
 ## Robot before painting and later modifications
 
-![Metal Monster before painting and later modifications](images/robot-before-painting.jpg)
+![Griffen before painting and later modifications](images/robot-before-painting.jpg)
 
 The project owner identifies this photo as the robot before it was painted and subsequently modified. It records an earlier mechanical configuration; the specific modifications and capture date have not been documented.
 

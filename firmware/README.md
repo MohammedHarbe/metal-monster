@@ -1,6 +1,6 @@
 # Firmware
 
-Metal Monster uses ESP-NOW. The robot receiver board is an **ESP32 DevKitC V4**, as confirmed by the project owner.
+Griffen uses ESP-NOW. The robot receiver board is an **ESP32 DevKitC V4**, as confirmed by the project owner.
 
 ## Active sketches
 
