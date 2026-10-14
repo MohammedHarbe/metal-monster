@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Metal Monster</title><desc id="desc">Combat robotics. Built together since 2023.</desc>
+<rect width="1200" height="300" rx="20" fill="#11151b"/>
+<path d="M880 0H1200V300H1010L820 110Z" fill="#1d232c"/>
+<path d="M1060 0H1100L910 300H870Z" fill="#d8ad49" opacity=".18"/>
+<path d="M1130 0H1140L950 300H940Z" fill="#d8ad49" opacity=".5"/>
+<rect x="64" y="57" width="48" height="5" fill="#e8be59"/>
+<text x="64" y="96" fill="#e8be59" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">TEAM ENGINEERING / SINCE 2023</text>
+<text x="60" y="177" fill="#f5f6f7" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="1">METAL MONSTER</text>
+<text x="64" y="225" fill="#b6bdc8" font-family="Arial,sans-serif" font-size="23">Combat robotics · Wireless control · Custom electronics</text>
+</svg>
