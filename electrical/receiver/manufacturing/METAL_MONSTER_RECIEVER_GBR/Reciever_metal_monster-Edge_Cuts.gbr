@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2026-10-14T15:55:22+03:00*%
+%TF.ProjectId,Reciever_metal_monster,52656369-6576-4657-925f-6d6574616c5f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2026-10-14 15:55:22*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X38130000Y-29210000D02*
+X136500000Y-29210000D01*
+X136500000Y-100920000D01*
+X38130000Y-100920000D01*
+X38130000Y-29210000D01*
+M02*
