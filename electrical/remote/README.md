@@ -46,3 +46,7 @@ The KiCad ZIP includes its local libraries and models; preserve its directory st
 The eight supplied files have been catalogued and their uploaded contents checked against the originals. The design files, PDFs, and firmware compatibility have not undergone an engineering review in this update. No electrical design or firmware changes were made.
 
 [Transmitter firmware](../../firmware/esp-now/trans/trans.ino) · [Firmware guide](../../firmware/README.md) · [Electrical overview](../README.md)
+
+## Mechanical section
+
+The remote PCB STEP/DXF package is also available under [Mechanical → Remote CAD](../../mechanical/remote/README.md).

@@ -41,7 +41,7 @@ The repository retains its original `metal-monster` name; **Griffen** is the rob
 
 | Area | What you will find | Availability |
 | :--- | :--- | :--- |
-| **[Mechanical](mechanical/README.md)** | Robot photos, motor references, and a home for CAD and drawings | Photos included · CAD to come |
+| **[Mechanical](mechanical/README.md)** | Robot photos, motor references, and [remote PCB CAD](mechanical/remote/README.md) | Remote CAD included · chassis CAD to come |
 | **[Firmware](firmware/README.md)** | Separate ESP-NOW remote and receiver sketches, setup notes, and known issues | Source included |
 | **[Robot receiver](electrical/receiver/README.md)** | KiCad project, schematic, PCB, Gerbers, drill files, and renders | Design package included |
 | **[Handheld remote](electrical/remote/README.md)** | KiCad review package, PCB models, Gerbers, schematic PDFs, and renders | Design packages included |
@@ -99,7 +99,7 @@ From the early receiver and handheld remote to the assembled robot, this reposit
 
 ```text
 metal-monster/
-├── mechanical/             Robot references; future CAD and drawings
+├── mechanical/             Robot references and remote PCB CAD
 ├── firmware/
 │   ├── esp-now/
 │   │   ├── trans/          Handheld remote sketch
