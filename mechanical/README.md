@@ -1,6 +1,6 @@
 # Mechanical Designs
 
-This section is reserved for Griffen's mechanical design files. No CAD models, fabrication drawings, or mechanical measurements are included yet.
+This section is reserved for Griffen's mechanical design files. Robot chassis CAD models, fabrication drawings, and mechanical measurements have not yet been supplied. The [remote PCB mechanical package](../electrical/remote/mechanical/MetalMonster_PCB_Solid.zip) is available separately under the remote electrical design.
 
 ## Where to add files
 

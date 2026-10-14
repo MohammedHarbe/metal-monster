@@ -26,7 +26,7 @@ The old onboard setup, identified by the project owner, shows an ESP32, relay in
 
 ![Early handheld remote with joystick and ESP32](images/early-remote.png)
 
-The old remote used for manual control, identified by the project owner. It shows the joystick, ESP32, wiring, and buttons in a handheld enclosure. See the [remote circuit section](../../electrical/remote/README.md); editable remote design files have not yet been supplied.
+The old remote used for manual control, identified by the project owner. It shows the joystick, ESP32, wiring, and buttons in a handheld enclosure. See the [remote circuit section](../../electrical/remote/README.md); the supplied remote design packages and new PCB renders are now available there.
 
 ## First integrated operation
 

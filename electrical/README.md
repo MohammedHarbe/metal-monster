@@ -5,7 +5,7 @@ Griffen has two separate circuits communicating over ESP-NOW:
 | Circuit | Location and role | Design status |
 | --- | --- | --- |
 | [Receiver](receiver/README.md) | Installed on the mobile robot; controls drive-motor interfaces and the spinner relay | KiCad sources, Gerbers/drills, PDFs, and PCB renders supplied |
-| [Remote](remote/README.md) | Handheld controller for manual driving and spinner commands | Place reserved; design files not yet supplied |
+| [Remote](remote/README.md) | Handheld controller for manual driving and spinner commands | KiCad review ZIP, PCB mechanical package, Gerbers/drills, PDFs, and renders supplied |
 
 ```text
 electrical/
@@ -19,9 +19,14 @@ electrical/
     images/
   remote/
     README.md
+    source/
+    mechanical/
+    manufacturing/
+    schematics/
+    images/
 ```
 
-The currently supplied electrical designs all belong to the **robot receiver**. The remote has its own documentation and upload location.
+Both circuits now have supplied design packages: the **robot receiver** and the **handheld remote**. Their files are kept in separate folders.
 
 ## Firmware pairing
 

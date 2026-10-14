@@ -1,37 +1,48 @@
 # Remote Circuit — Handheld Controller
 
-The remote is the separate handheld circuit used to manually control the mobile robot. It reads joystick and switch inputs and transmits commands over ESP-NOW to the [robot receiver](../receiver/README.md).
+<p align="center"><img src="images/remote3.png" alt="Griffen handheld remote PCB render" width="800"></p>
 
-**Status:** Remote circuit design files have not been supplied yet. The existing [transmitter firmware](../../firmware/esp-now/trans/trans.ino) is available. The receiver's ESP32 DevKitC V4 identification does not establish the remote's exact board model.
+The handheld controller for **Griffen**, built by **Vanguards**, communicates with the [robot receiver](../receiver/README.md) over ESP-NOW.
 
-## Design files to add
+## Design downloads
 
-| Folder | Intended contents |
+| Package | Contents |
 | --- | --- |
-| `source/` | Editable remote KiCad project, schematic, and PCB |
-| `manufacturing/` | Remote Gerbers and drill files |
-| `schematics/` | Remote schematic PDFs |
-| `pcb/` | Remote PCB layout PDFs |
-| `images/` | Remote PCB renders and photos |
+| [KiCad review package](source/MetalMonster_AR9_Friend_Review%20%281%29.zip) | Project, schematic, PCB, design rules, symbol and footprint libraries, and referenced models |
+| [PCB mechanical package](mechanical/MetalMonster_PCB_Solid.zip) | Assembly and bare-board STEP files, outline DXFs, mechanical PDF, mounting coordinates, and supplied notes/reports |
+| [Gerber package](manufacturing/MetalMonster_FINAL_GERBERS.zip) | Copper, mask, silkscreen, outline, unplated drill file, and drill-map PDF |
+| [Schematic PDF](schematics/remote_schematic_avengers.pdf) | First supplied PDF |
+| [Additional schematic PDF](schematics/remote_schematic_avengers%20%281%29.pdf) | Second supplied PDF; retained separately because it differs from the first |
 
-Create these subfolders when their files are supplied. All receiver design files remain in the separate receiver folder.
+Original filenames and archive contents are preserved. “Friend Review” and “FINAL” are supplied filenames, not independent review or fabrication approval. No authoritative revision has been inferred from the filenames.
 
-## Input reference from transmitter firmware
+## Board gallery
 
-These assignments describe the current code; they have not been checked against a remote schematic.
+<table>
+<tr>
+<td align="center"><img src="images/remote_rnder.png" alt="Remote PCB top render" width="420"><br>Top view</td>
+<td align="center"><img src="images/remote_rnder2.png" alt="Remote PCB underside render" width="420"><br>Underside view</td>
+</tr>
+</table>
 
-| Transmitter input | GPIO |
-| --- | --- |
-| Joystick x | 35 |
-| Joystick y | 34 |
-| Spinner switch | 12 |
-| System switch, unused by current control logic | 14 |
-| Rotate left | 15 |
-| Rotate right | 13 |
+[Angled render](images/remote3.png) · [Early handheld prototype](../../docs/history/images/early-remote.png)
 
+## Package organization
 
-[Back to electrical overview](../README.md)
+```text
+remote/
+  README.md
+  source/          Original KiCad review ZIP
+  mechanical/      Original PCB STEP/DXF package
+  manufacturing/   Original Gerber/drill ZIP
+  schematics/      Both supplied PDFs
+  images/          Three supplied PCB renders
+```
 
-## Early remote photo
+The KiCad ZIP includes its local libraries and models; preserve its directory structure when extracting it. The mechanical package describes the remote PCB, not the robot chassis.
 
-A [photo of the old handheld remote](../../docs/history/images/early-remote.png) is available in the project history. This photo is separate from the editable remote circuit designs, which have not yet been supplied.
+## Documentation status
+
+The eight supplied files have been catalogued and their uploaded contents checked against the originals. The design files, PDFs, and firmware compatibility have not undergone an engineering review in this update. No electrical design or firmware changes were made.
+
+[Transmitter firmware](../../firmware/esp-now/trans/trans.ino) · [Firmware guide](../../firmware/README.md) · [Electrical overview](../README.md)

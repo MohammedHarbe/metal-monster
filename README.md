@@ -44,7 +44,7 @@ The repository retains its original `metal-monster` name; **Griffen** is the rob
 | **[Mechanical](mechanical/README.md)** | Robot photos, motor references, and a home for CAD and drawings | Photos included · CAD to come |
 | **[Firmware](firmware/README.md)** | Separate ESP-NOW remote and receiver sketches, setup notes, and known issues | Source included |
 | **[Robot receiver](electrical/receiver/README.md)** | KiCad project, schematic, PCB, Gerbers, drill files, and renders | Design package included |
-| **[Handheld remote](electrical/remote/README.md)** | Controller overview, input mapping, and prototype photo | Circuit design files to come |
+| **[Handheld remote](electrical/remote/README.md)** | KiCad review package, PCB models, Gerbers, schematic PDFs, and renders | Design packages included |
 | **[Project history](docs/history/README.md)** | Early electronics, team photo, and first-operation video | Media included |
 
 ## Two circuits. One robot.
@@ -52,10 +52,10 @@ The repository retains its original `metal-monster` name; **Griffen** is the rob
 <table>
 <tr><td width="50%" align="center"><b>HANDHELD REMOTE</b><br><sub>Manual inputs → ESP-NOW commands</sub></td><td width="50%" align="center"><b>ONBOARD RECEIVER</b><br><sub>ESP-NOW commands → motor and relay control</sub></td></tr>
 <tr>
-<td align="center"><img src="docs/history/images/early-remote.png" alt="Early handheld remote with joystick, buttons, and ESP32" width="400"></td>
+<td align="center"><img src="electrical/remote/images/remote_rnder.png" alt="Supplied handheld remote PCB render" width="400"></td>
 <td align="center"><img src="electrical/receiver/images/Reciever_metal_monster.png" alt="Custom receiver PCB rendering" width="400"></td>
 </tr>
-<tr><td>The early remote prototype reads joystick and switch inputs. Its firmware is included; editable remote circuit designs are still to be added.</td><td>The supplied custom PCB hosts the ESP32 DevKitC V4 and interfaces with the drive controller and spinner relay.</td></tr>
+<tr><td>The handheld remote reads joystick and switch inputs. Its supplied KiCad review package, mechanical exports, Gerbers, PDFs, and renders are now included.</td><td>The supplied custom PCB hosts the ESP32 DevKitC V4 and interfaces with the drive controller and spinner relay.</td></tr>
 </table>
 
 ## Hardware at a glance
@@ -122,7 +122,7 @@ metal-monster/
 
 ### Development status
 
-**ESP-NOW is the active control system; SBUS is unused legacy material.** Existing firmware is preserved, including the transmitter's missing receiver-address declaration and direction-mapping issues. Repository documentation updates do not establish successful compilation, hardware validation, or fabrication readiness. Mechanical CAD and editable remote circuit designs are still to be added.
+**ESP-NOW is the active control system; SBUS is unused legacy material.** Existing firmware is preserved, including the transmitter's missing receiver-address declaration and direction-mapping issues. Repository documentation updates do not establish successful compilation, hardware validation, or fabrication readiness. Robot chassis CAD is still to be added; remote PCB mechanical exports and circuit design packages are now included.
 
 ---
 
