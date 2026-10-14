@@ -51,7 +51,7 @@ Relay contacts -> starter motor power circuit (direct switching, owner-confirmed
 
 The transistor provides coil-current drive; the ESP32 GPIO does not supply the coil's 5 V power. Based on the schematic, a HIGH control signal turns on the transistor and energizes the relay; LOW releases it. The 1N4007 is across the relay coil, not across the external starter motor.
 
-The project owner confirms that the relay contacts switch motor power directly, rather than energizing the starter solenoid. External battery wiring and the selected COM/NO/NC connection are not shown in the supplied schematic. The team reports a separate 12 V, 7.5 Ah LiPo supply for the starter motor. The relay's 5 V rating describes its coil supply.
+The project owner confirms that the relay contacts switch motor power directly, rather than energizing the starter solenoid. External battery wiring and the selected COM/NO/NC connection are not shown in the supplied schematic. The team reports a separate 11.1 V (3S), 10.4 Ah LiPo supply for the starter motor. The relay's 5 V rating describes its coil supply.
 
 **Load capacity is unverified:** the PDF names a generic relay; the editable source uses a SANYOU SRD-series symbol/footprint and does not specify its DC motor-load contact rating, starter inrush/stall current, or PCB current-carrying capacity. The presence of a coil driver alone does not establish that the contact path is suitable for switching this starter motor.
 
@@ -85,10 +85,16 @@ The manufacturing archive contains 10 Gerber layers, a Gerber job file, and sepa
 
 ## Robot drive and power configuration
 
-The team identifies the base motors as wheelchair motors controlled by an MDD20A motor driver, powered by a reported 25 V lithium-ion battery. A separate reported 12 V, 7.5 Ah LiPo battery powers the starter motor driving the metal spinner for robot-versus-robot competition.
+The team identifies the base motors as wheelchair motors controlled by an MDD20A motor driver, powered by a reported 24 V, 20 Ah lithium-ion battery. A separate reported 11.1 V (3S), 10.4 Ah LiPo battery powers the starter motor driving the metal spinner for robot-versus-robot competition.
 
-These are owner-reported hardware details, not a completed compatibility assessment. Battery cell counts and nominal/full-charge voltages, motor nameplate details, current measurements, and the receiver/relay 5 V supply arrangement still need documentation. The supplied schematic does not show the complete two-battery power wiring.
+These are owner-reported hardware details, not a completed compatibility assessment. Drive-battery cell count and full-charge voltage, motor nameplate details, current measurements, and the receiver/relay 5 V supply arrangement still need documentation. The supplied schematic does not show the complete two-battery power wiring.
 
 ## Earlier hardware
 
 See the [old receiver setup](../../docs/history/README.md#early-receiver-setup) for the earlier enclosure-mounted prototype. The design files in this folder document the supplied receiver PCB.
+
+## Battery references
+
+- [Wheel-motor battery](images/drive-battery-reference.png): 24 V, 20 Ah lithium-ion, confirmed by the owner.
+- [Starter battery reference](images/starter-battery-reference.png).
+- [Starter battery listing](images/starter-battery-listing.png): 11.1 V, 3S, 10,400 mAh (10.4 Ah), 40C; listed dimensions 170 × 55 × 27 mm. Listing ratings have not been independently measured. This supersedes the earlier 12 V, 7.5 Ah description.

@@ -47,14 +47,14 @@ The following configuration is supplied by the project team:
 | --- | --- |
 | Drive motors | Two wheelchair motors |
 | Drive motor controller | MDD20A motor driver |
-| Drive battery | 25 V lithium-ion battery, as reported by the team |
+| Drive battery | 24 V, 20 Ah lithium-ion battery, as reported by the team |
 | Spinner motor | Starter motor driving a metal spinner |
-| Spinner battery | 12 V, 7.5 Ah LiPo battery, as reported by the team |
+| Spinner battery | 11.1 V (3S), 10.4 Ah LiPo battery, as reported by the team |
 | Robot receiver | ESP32 DevKitC V4 on a custom PCB |
 | Wireless control | ESP-NOW handheld remote and robot receiver |
 | Spinner switching | BC338 transistor drives a 5 V relay coil; relay contacts switch starter motor power directly |
 
-Battery voltages are recorded as supplied; nominal/full-charge values and cell counts have not been established. The motor reference image is labelled MY1016Z, 24 V, 250 W, but the installed motors' exact model and nameplate ratings have not been confirmed.
+The drive battery rating is owner-reported. The supplied starter-battery listing specifies 11.1 V, 3S, 10,400 mAh (10.4 Ah), and 40C; these are listing specifications, not measured performance. Drive-pack cell count and full-charge voltage have not been established. The motor reference image is labelled MY1016Z, 24 V, 250 W, but the installed motors' exact model and nameplate ratings have not been confirmed.
 
 ## Two circuits
 
@@ -65,7 +65,7 @@ Battery voltages are recorded as supplied; nominal/full-charge values and cell c
 
 The transmitter reads joystick and switch inputs and sends commands over ESP-NOW. The receiver drives two external motor-driver interfaces. Its spinner GPIO controls a BC338 transistor stage that switches a 5 V relay coil. The project owner confirms that the relay contacts switch the starter motor power directly.
 
-The relay coil uses 5 V; the starter motor uses the separate, team-reported 12 V, 7.5 Ah LiPo supply. Starter current and relay contact ratings remain undocumented.
+The relay coil uses 5 V; the starter motor uses the separate, team-reported 11.1 V (3S), 10.4 Ah LiPo supply. Starter current and relay contact ratings remain undocumented.
 
 ## Getting started
 
